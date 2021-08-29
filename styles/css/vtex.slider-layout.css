@@ -1,0 +1,15 @@
+.sliderLayoutContainer--home-slider {
+	margin-bottom: 2rem;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+.caretIcon {
+	color: #e47911;
+	margin: 0.5rem;
+}
+
+.sliderTrack--carousel {
+	height: 25rem;
+}

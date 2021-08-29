@@ -1,0 +1,128 @@
+/* Header */
+.flexRowContent--header {
+	background-color: #232f3e;
+}
+.flexRowContent--header-mobile {
+	align-items: center;
+	background-color: #232f3e;
+	justify-content: space-between;
+}
+/* Fim */
+
+/* Primeira sessão */
+.flexRow--row-form-tablet{
+  margin: 0 20px;
+}
+.flexCol--col-tablet-text{
+  padding: 0 20px;
+}
+/* Footer */
+.flexRowContent--copyright {
+	margin-top: 2%;
+	padding-left: 20px;
+	margin-bottom: 2%;
+}
+.flexRowContent--mobile-social {
+	padding-left: 20px;
+}
+@media (min-width: 768px){
+	.flexRow--form-mobile{
+	  display: none;
+	}
+  .flexRow--content-phone{
+    display: none;
+  }
+}
+/* Fim */
+
+/* Sessão beneficios */
+.flexRowContent--content {
+  margin-bottom: 70px;
+}
+.flexRowContent--content-phone {
+  background-color: #232f3e;
+}
+.flexCol--col-content-desktop {
+  font-size: 30px;
+  background-color: #232f3e;
+  padding: 50px 3rem;
+  width: 100%;
+}
+.flexCol--col-content-tablet {
+  font-size: 30px;
+  background-color: #232f3e;
+  padding: 25px;
+  width: 100%;
+}
+.flexRowContent--row1-benefits{
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.flexRow--row2-benefits{
+  margin-top: 30px;
+}
+.flexRow--tablet{
+  margin: 0 20px 30px;
+}
+.flexRow--row-form-tablet{
+  margin: 70px 20px;
+}
+/* Fim*/
+
+/* Product List */
+.flexRowContent--productDetailMinicart {
+  padding: 10px 10px 0 10px;
+  box-shadow: 0 0 4px #414040;
+  margin-top: 10px;
+  border-radius: 3px;
+  align-items: center;
+}
+/* Fim */
+
+/* Product */
+.flexCol--product-info {
+	width: 70% !important;
+}
+/* Fim */
+
+/* Sessão sobre */
+.flexRowContent--sobre-title {
+  margin: 70px 0;
+  justify-content: space-around;
+}
+.flexRowContent--section-two-title {
+  margin-bottom: 70px;
+}
+.flexRow--section-two {
+  margin: 0 40px 70px;
+}
+.flexRowContent--section-two {
+  background-color: #FFF;
+  padding: 30px;
+  justify-content: space-around;
+}
+.flexRow--section-one-sobre-text {
+  margin: 0 0 70px;
+}
+
+.flexColChild--sobre-inicio-col{
+  width: 100vw;
+  background-color: #FFF;
+}
+.flexCol--sobre-inicio-col-mobile{
+  width: 100vw;
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+/* Fim */
+
+/* Home */
+.flexRow--row-form{
+  margin: 0 50px;
+}
+.flexRow--form-mobile{
+  margin: 0 32px;
+}

@@ -3,6 +3,7 @@
     "blocks": [
       "slider-layout#home-banner",
       "responsive-layout.tablet#form-section",
+      "__fold__",
       "responsive-layout.mobile#home-products-slider",
       "responsive-layout.tablet#benefits"
     ]

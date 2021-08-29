@@ -1,10 +1,11 @@
 {
-    "store.home#desktop": {
-        "blocks": [
-          "slider-layout#home-banner",
-          "responsive-layout.desktop#form-section",   
-          "responsive-layout.desktop#home-products-slider",
-          "responsive-layout.desktop#benefits"
-        ]
-      }
+  "store.home#desktop": {
+    "blocks": [
+      "slider-layout#home-banner",
+      "responsive-layout.desktop#form-section",
+      "__fold__",
+      "responsive-layout.desktop#home-products-slider",
+      "responsive-layout.desktop#benefits"
+    ]
+  }
 }

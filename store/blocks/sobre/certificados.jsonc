@@ -1,0 +1,159 @@
+{
+	// DESKTOP
+	"responsive-layout.desktop#certificados": {
+		"children": [
+			"flex-layout.row#certificados-title",
+			"flex-layout.row#desktop-certificados"
+		]
+	},
+	"flex-layout.row#desktop-certificados": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true,
+			"blockClass": "section-two"
+		},
+		"children": [
+			"flex-layout.col#tipos",
+			"flex-layout.col#section-two-text"
+		]
+	},
+	"flex-layout.col#tipos": {
+		"props": {
+			"blockClass": "col-tipos"
+		},
+		"children": [
+			"rich-text#professional",
+			"rich-text#associate",
+			"rich-text#fundational",
+			"rich-text#specialty"
+		]
+	},
+	"flex-layout.col#section-two-text": {
+		"props": {
+			"blockClass": "section-two-col-text"
+		},
+		"children": ["rich-text#section-two-text"]
+	},
+
+	// TABLET
+	"responsive-layout.tablet#certificados": {
+		"children": [
+			"flex-layout.row#certificados-title",
+			"flex-layout.col#tablet-certificados"
+		]
+	},
+	"flex-layout.col#tablet-certificados": {
+		"props": {
+			// "horizontalAlign": "center",
+			// "verticalAlign": "center",
+			// "preventHorizontalStretch": true,
+			// "preventVerticalStretch": true,
+			// "fullWidth": true,
+			// "blockClass": "section-two"
+		},
+		"children": [
+			"flex-layout.row#tablet-tipos",
+			"flex-layout.row#tablet-section-two-text"
+		]
+	},
+	"flex-layout.row#tablet-tipos": {
+		"children": [
+			"flex-layout.col#tipos"
+		]
+	},
+	"flex-layout.row#tablet-section-two-text": {
+		"children": [
+			"flex-layout.col#section-two-text"
+		]
+	},
+	// "flex-layout.col#tipos": {
+	// 	"props": {
+	// 		"blockClass": "col-tipos"
+	// 	},
+	// 	"children": [
+	// 		"rich-text#professional",
+	// 		"rich-text#associate",
+	// 		"rich-text#fundational",
+	// 		"rich-text#specialty"
+	// 	]
+	// },
+	// "flex-layout.col#section-two-text": {
+	// 	"props": {
+	// 		"blockClass": "section-two-col-text"
+	// 	},
+	// 	"children": ["rich-text#section-two-text"]
+	// },
+	// MOBILE
+	// "responsive-layout.mobile#certificados": {
+	// 	"children": [
+	// 		"flex-layout.row#certificados-title",
+	// 		"flex-layout.col#tablet-certificados"
+	// 	]
+	// },
+	// UNIVERSAL
+	"flex-layout.row#certificados-title": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true,
+			"blockClass": "section-two-title"
+		},
+		"children": ["flex-layout.col#certificados-title"]
+	},
+	"flex-layout.col#certificados-title": {
+		"children": ["rich-text#certificados-title"]
+	},
+	"rich-text#certificados-title": {
+		"props": {
+			"textAlignment": "center",
+			"textPosition": "center",
+			"text": "Certificados AWS disponíveis",
+			"blockClass": "section-two-title"
+		}
+	},
+	"rich-text#professional": {
+		"props": {
+			"textAlignment": "center",
+			"textPosition": "center",
+			"text": "Professional",
+			"blockClass": "text-col-certificates"
+		}
+	},
+	"rich-text#associate": {
+		"props": {
+			"textAlignment": "center",
+			"textPosition": "center",
+			"text": "Associate",
+			"blockClass": "text-col-certificates"
+		}
+	},
+	"rich-text#fundational": {
+		"props": {
+			"textAlignment": "center",
+			"textPosition": "center",
+			"text": "Fundational",
+			"blockClass": "text-col-certificates"
+		}
+	},
+	"rich-text#specialty": {
+		"props": {
+			"textAlignment": "center",
+			"textPosition": "center",
+			"text": "Specialty",
+			"blockClass": "text-col-certificates"
+		}
+	},
+	"rich-text#section-two-text": {
+		"props": {
+			"textAlignment": "left",
+			"textPosition": "center",
+			"text": "Você pode se beneficiar de uma grande variedade de insights de especialistas, recursos e programas à medida que avança em direção à obtenção da AWS Certification. Caso esteja começando agora ou esteja em busca de uma nova certificação, a AWS ajuda você a validar com eficácia a sua experiência na nuvem.",
+			"blockClass": "section-two-text"
+		}
+	}
+}

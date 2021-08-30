@@ -1,5 +1,5 @@
 {
-    "store.home#desktop": {
+    "store.home": {
         "blocks": [
           "slider-layout#home-banner",
           "responsive-layout.desktop#form-section",

@@ -90,6 +90,9 @@
   margin: 70px 0;
   justify-content: space-around;
 }
+.flexCol--col-2-sobre-inicio{
+  width: 718px;
+}
 .flexRowContent--section-two-title {
   margin-bottom: 70px;
 }
@@ -100,9 +103,6 @@
   background-color: #FFF;
   padding: 30px;
   justify-content: space-around;
-}
-.flexRow--section-one-sobre-text {
-  margin: 0 0 70px;
 }
 
 .flexColChild--sobre-inicio-col{

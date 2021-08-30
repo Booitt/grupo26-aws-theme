@@ -1,0 +1,43 @@
+{
+    "responsive-layout.tablet#banner-1": {
+      "children": ["flex-layout.row#sobre-banner1-tablet"]
+    },
+    "flex-layout.row#sobre-banner1-tablet": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": true,
+        "blockClass": "sobre-inicio-tablet"
+      },
+      "children": ["flex-layout.col#sobre-banner1-tablet"]
+    },
+    "flex-layout.col#sobre-banner1-tablet": {
+      "props": {
+        "blockClass": "sobre-inicio-col-tablet"
+      },
+      "children": ["image#logo-sobre-tablet","rich-text#title-banner1-tablet", "rich-text#text-banner1-tablet"]
+    },
+    "image#logo-sobre-tablet": {
+      "props": {
+        "blockClass": "logo-sobre-tablet",
+        "src": "assets/home/logo-home.svg"
+      }
+    },
+    "rich-text#title-banner1-tablet": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "Sobre os certificados AWS",
+        "blockClass": "sobre-aws-title-tablet"
+      }
+    },
+    "rich-text#text-banner1-tablet": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "Você pode se beneficiar de uma grande variedade de insights de especialistas, recursos e programas à medida que avança em direção à obtenção da AWS Certification. Caso esteja começando agora ou esteja em busca de uma nova certificação, a AWS ajuda você a validar com eficácia a sua experiência na nuvem.",
+        "blockClass": "text-banner1-tablet"
+      }
+    }
+  }
+  

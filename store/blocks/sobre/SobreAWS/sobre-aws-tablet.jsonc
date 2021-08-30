@@ -1,0 +1,49 @@
+{
+    "responsive-layout.tablet#sobre-aws": {
+      "children": ["flex-layout.row#sobreAWS-tablet"]
+    },
+    "flex-layout.row#sobreAWS-tablet": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": true,
+        "blockClass": "sobre-aws-tablet"
+      },
+      "children": ["flex-layout.col#sobre-aws-tablet"]
+    },
+    "flex-layout.col#sobre-aws-tablet": {
+      "props": {
+        "blockClass": "sobre-aws-col-tablet"
+      },
+      "children": [
+        "rich-text#title-sobre-AWS-tablet",
+        "rich-text#text-sobre-aws1-tablet",
+        "rich-text#text-sobre-aws2-tablet"
+      ]
+    },
+    "rich-text#title-sobre-AWS-tablet": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "Sobre a AWS",
+        "blockClass": "sobre-aws-title-tablet"
+      }
+    },
+    "rich-text#text-sobre-aws1-tablet": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "Em 2006, a Amazon Web Services (AWS) começou a oferecer serviços de infraestrutura de TI para empresas por meio de serviços web – hoje conhecidos como computação em nuvem. Um dos principais benefícios da computação em nuvem é a oportunidade de substituir diretamente gastos com a infraestrutura principal por preços variáveis baixos, que se ajustam de acordo com sua empresa. Com a Nuvem, as empresas não precisam mais planejar ou adquirir servidores, assim como outras infraestruturas de TI, com semanas ou meses de antecedência. Em vez disso, podem instantaneamente rodar centenas de milhares de servidores em minutos e oferecer resultados mais rapidamente.",
+        "blockClass": "text-sobre-aws"
+      }
+    },
+    "rich-text#text-sobre-aws2-tablet": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "Atualmente, a Amazon Web Services oferece uma plataforma de infraestrutura altamente confiável, escalável e de baixo custo na nuvem que potencializa centenas de milhares de empresas em 190 países ao redor do mundo. Com datacenters localizados nos EUA, Europa, Brasil, Cingapura, Japão e Austrália, clientes de todos os setores estão tendo vantagens com os seguintes benefícios:",
+        "blockClass": "text-sobre-aws"
+      }
+    }
+  }
+  

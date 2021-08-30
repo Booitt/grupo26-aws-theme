@@ -115,7 +115,7 @@
   "rich-text#benefits-loja-text": {
     "props": {
       "blockClass": "benefits-text",
-      "text": "Desbloqueie o acesso a produtos exclusivos certificados pela AWS."
+      "text": "Desbloqueie o acesso a produtos exclusivos certificados pela AWS. Na nossa loja para profissionais certificados                        "
     }
   }
 }

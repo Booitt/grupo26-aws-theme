@@ -1,7 +1,11 @@
+/*Ícone do carrinho do minicart*/
 .cartIcon--minicart-empty-state{
-    color: #000000;
+    color: #000000 !important;
 }
+/*Fim*/
 
+/*Ícone do Carrinho do Header*/
 .cartIcon{
     color: #FAFAFA;
 }
+/*Fim*/

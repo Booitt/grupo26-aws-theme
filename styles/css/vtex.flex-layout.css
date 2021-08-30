@@ -38,6 +38,12 @@
   .flexRow--sobre-inicio-mobile{
     display: none;
   }
+  .flexRow--banner2-mobile{
+    display: none;
+  }
+  .flexRow--training-mobile{
+    display: none;
+  }
 }
 /* Fim */
 
@@ -105,8 +111,21 @@
 .flexCol--sobre-aws-col-tablet{
   padding: 30px;
 }
+.flexCol--sobre-aws-col-tablet-training{
+  padding: 30px;
+  background-color: #FFF;
+}
+.flexCol--sobre-aws-col-mobile-training{
+  padding: 20px;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .flexCol--sobre-aws-col-mobile{
   padding: 20px;
+  align-items: center;
+  justify-content: center;
 }
 .flexCol--col-title-banner1{
   width: 700px;
@@ -117,7 +136,11 @@
   justify-content: center;
 }
 .flexRow--certificados{
-  padding: 50px 50px 10px;
+  margin: 70px 0 20px;
+}
+.flexRowContent--certificados-banner{
+  background-color: #FFF;
+  padding: 30px;
 }
 .flexRow--certificados-tablet{
   padding: 30px 30px 0;
@@ -170,12 +193,13 @@
   width: 300px;
 } 
 .flexRow--certificados-banner {
-  padding: 0 50px 50px;
+  padding: 0 50px 70px;
   justify-content: space-around;
 }
 .flexRow--certificados-banner-tablet {
   padding: 0 30px 30px;
   justify-content: space-around;
+  margin-bottom: 50px;
 }
 .flexRowContent--certificados-banner-tablet{
   background-color: #FFF;
@@ -190,12 +214,13 @@
 .flexColChild--sobre-inicio-col{
   width: 100vw;
   background-color: #FFF;
+  padding: 50px 0;
 }
 .flexCol--sobre-inicio-col-tablet{
   width: 100vw;
   background-color: #FFF;
   display: flex;
-  padding: 30px;
+  padding: 50px 30px;
   align-items: center;
   justify-content: center;
 }

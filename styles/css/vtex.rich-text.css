@@ -119,7 +119,7 @@
 .paragraph--text-banner1-tablet{
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
 }
 .paragraph--sobre-aws-title-tablet{
@@ -193,7 +193,7 @@
 .paragraph--certificados-text-tablet {
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
 }
 .paragraph--section-one-title-mobile{
@@ -207,5 +207,28 @@
   font-weight: 700;
   font-size: 20px;
   margin: 0;
+}
+.paragraph--sobre-aws-subtitle-tablet{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+}
+.paragraph--sobre-aws-subtitle-mobile{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+.paragraph--text-sobre-aws-mobile{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.paragraph--text-sobre-aws-tablet{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
 }
 /* Fim */

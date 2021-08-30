@@ -158,8 +158,13 @@
   border: 1px solid #d5dbdb;
 }
 .flexColChild--benefits-card:nth-child(even) {
-  /* background-color: aqua; */
   height: 50% !important;
 }
+/*Fim*/
 
+/* Form Section - Refactored */
+/*Inicio*/
+.flexRow--form-container {
+  background-color: #fff;
+}
 /*Fim*/

@@ -102,5 +102,11 @@
 .imageElement--benefits-image {
   margin-top: 3rem;
 }
+/*Fim*/
 
+/* Form Section - Refactored */
+/*Inicio*/
+.imageElement--form-logo-image {
+  margin-bottom: 1.5rem;
+}
 /*Fim*/

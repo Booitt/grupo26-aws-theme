@@ -1,0 +1,103 @@
+{
+  "responsive-layout.desktop#form-section": {
+    "children": ["flex-layout.row#form-container"]
+  },
+
+  "flex-layout.row#form-container": {
+    "props": {
+      "fullWidth": false,
+      "horizontalAlign": "center",
+      "blockClass": "form-container",
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#form-wrapper"]
+  },
+  "flex-layout.col#form-wrapper": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["image#form-logo", "flex-layout.row#form-main"]
+  },
+
+  "image#form-logo": {
+    "props": {
+      "blockClass": "form-logo-image",
+      "src": "assets/home/logo-home.svg",
+      "maxHeight": "50px"
+    }
+  },
+
+  "flex-layout.row#form-main": {
+    "props": {
+      "paddingBottom": 8
+    },
+    "children": [
+      "flex-layout.col#form-section-left",
+      "flex-layout.col#form-section-form"
+    ]
+  },
+
+  "flex-layout.col#form-section-left": {
+    "props": {
+      "blockClass": "form-left",
+      "verticalAlign": "middle",
+      "marginRight": 7,
+      "paddingRight": 7,
+      "border": "right"
+    },
+    "children": [
+      "rich-text#form-left-title",
+      "rich-text#form-left-text",
+      "image#form-left-image"
+    ]
+  },
+
+  /*Lado Esquerdo*/
+  "rich-text#form-left-title": {
+    "props": {
+      "text": "### Habilidades em cloud estão em alta."
+    }
+  },
+  "rich-text#form-left-text": {
+    "props": {
+      "text": "Certifique seu conhecimento e não perca nenhuma oportunidade.",
+      "blockClass": "form-text-paragraph"
+    }
+  },
+  "image#form-left-image": {
+    "props": {
+      "src": "assets/home/form-image.svg",
+      "maxHeight": "150px"
+    }
+  },
+
+  /*Lado Direito*/
+
+  "flex-layout.col#form-section-form": {
+    "props": {
+      "blockClass": "form-right",
+      "marginLeft": 7
+    },
+    "children": ["rich-text#form-title", "flex-layout.row#form-right-form"]
+  },
+
+  "flex-layout.row#form-right-form": {
+    "props": {
+      "fullWidth": false,
+      "paddingBottom": 6,
+      "paddingTop": 6,
+      "blockClass": "form-row"
+    },
+    "children": ["formulario"]
+  },
+
+  "rich-text#form-title2": {
+    "props": {
+      "text": "### Solicite seu exame prático gratuito",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "form-title"
+    }
+  }
+}

@@ -2,10 +2,17 @@
   "store.custom#sobre": {
     "blocks": [
       "slider-layout#home-banner",
-      "responsive-layout.desktop#sobre",
-      "responsive-layout.mobile#sobre"
-
-      // "responsive-layout.tablet#certificados"
+      "responsive-layout.desktop#sobre-aws",
+      "responsive-layout.tablet#sobre-aws",
+      "responsive-layout.mobile#sobre-aws",
+      "__fold__",
+      "responsive-layout.desktop#banner-1",
+      "responsive-layout.tablet#banner-1",
+      "responsive-layout.mobile#banner-1",
+      "responsive-layout.desktop#banner-2",
+      "responsive-layout.tablet#banner-2",
+      "responsive-layout.mobile#banner-2"
+      // "responsive-layout.desktop#training"
     ]
   }
 }

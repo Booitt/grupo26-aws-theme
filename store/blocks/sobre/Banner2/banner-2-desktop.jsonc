@@ -1,8 +1,8 @@
 {
-  "responsive-layout.desktop#certificados": {
-    "children": ["flex-layout.row#certificados"]
+  "responsive-layout.desktop#banner-2": {
+    "children": ["flex-layout.row#titulo", "flex-layout.row#banner2"]
   },
-  "flex-layout.row#certificados": {
+  "flex-layout.row#titulo": {
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -18,8 +18,7 @@
       "blockClass": "col-certificados"
     },
     "children": [
-      "rich-text#certificados-title",
-      "flex-layout.row#certificados-banner"
+      "rich-text#certificados-title"
     ]
   },
   "rich-text#certificados-title": {
@@ -30,7 +29,7 @@
       "blockClass": "sobre-aws-title"
     }
   },
-  "flex-layout.row#certificados-banner": {
+  "flex-layout.row#banner2": {
     "props": {
       "colGap": 9,
       "horizontalAlign": "center",
@@ -38,7 +37,7 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "certificados-banner"
+      "blockClass": "certificados-banner-tablet"
     },
     "children": [
       "flex-layout.col#tipos",

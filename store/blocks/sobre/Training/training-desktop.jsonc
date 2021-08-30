@@ -1,0 +1,56 @@
+{
+  "responsive-layout.desktop#training": {
+    "children": ["flex-layout.row#training"]
+  },
+  "flex-layout.row#training": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "left",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "training"
+    },
+    "children": ["flex-layout.col#training"]
+  },
+  "flex-layout.col#training": {
+    "children": [
+      "rich-text#training-title",
+      "rich-text#training-subtitle",
+      "rich-text#training-text1",
+      "rich-text#training-text2"
+    ]
+  },
+  "rich-text#training-title": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Training and Certification",
+      "blockClass": "sobre-aws-title"
+    }
+  },
+  "rich-text#training-subtitle": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Aprenda com especialistas da AWS. Desenvolva habilidades e conhecimentos. Construa seu futuro na Nuvem AWS.",
+      "blockClass": "sobre-aws-subtitle"
+    }
+  },
+  "rich-text#training-text1": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "As organizações precisam de indivíduos com habilidades em nuvem para ajudar a transformar seus negócios. O AWS Training and Certification ajudam você a criar e validar suas habilidades para aproveitá-la melhor. Nosso conteúdo é criado por especialistas na AWS e atualizados regularmente, para que você possam manter suas habilidades com a nuvem sempre em dia.",
+      "blockClass": "text-sobre-aws"
+    }
+  },
+  "rich-text#training-text2": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Oferecemos treinamento digital e em sala de aula. O treinamento digital permite que você aprenda online no seu próprio ritmo. Com o treinamento em sala de aula, você pode aprender as melhores práticas com um instrutor especializado. Além das salas de aula presenciais, o treinamento virtual permite assistir às aulas em qualquer lugar. Se estiver iniciando, aprimorando habilidades de TI existentes ou melhorando seus conhecimentos sobre nuvem, o AWS Training and Certification pode ajudar você a ser mais eficaz e fazer muito mais na nuvem.",
+      "blockClass": "text-sobre-aws"
+    }
+  }
+}

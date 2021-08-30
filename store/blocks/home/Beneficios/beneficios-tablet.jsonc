@@ -1,6 +1,6 @@
 {
   "responsive-layout.tablet#benefits": {
-    "children": ["flex-layout.row#benefits-tablet-container"]
+    "children": []
   },
   "flex-layout.row#benefits-tablet-container": {
     "props": {

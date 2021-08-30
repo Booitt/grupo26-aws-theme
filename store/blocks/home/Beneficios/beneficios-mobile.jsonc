@@ -1,7 +1,6 @@
 {
   //phone
   "responsive-layout.mobile#benefits": {
-    // "children": ["flex-layout.row#content-phone", "spacer#vertical-3"]
     "children": ["flex-layout.row#benefits-mobile-container"]
   },
 
@@ -42,41 +41,114 @@
       "fullWidth": true,
       "marginBottom": 5
     },
-    "children": ["flex-layout.col#benefits-col-left-top"]
+    "children": ["flex-layout.col#benefits-mob-left-top"]
   },
   "flex-layout.row#benefits-mobile-row2": {
     "props": {
       "fullWidth": true,
       "marginBottom": 5
     },
-    "children": ["flex-layout.col#benefits-col-center-top"]
+    "children": ["flex-layout.col#benefits-mob-center-top"]
   },
   "flex-layout.row#benefits-mobile-row3": {
     "props": {
       "fullWidth": true,
       "marginBottom": 5
     },
-    "children": ["flex-layout.col#benefits-col-left"]
+    "children": ["flex-layout.col#benefits-mob-right-top"]
   },
   "flex-layout.row#benefits-mobile-row4": {
     "props": {
       "fullWidth": true,
       "marginBottom": 5
     },
-    "children": ["flex-layout.col#benefits-col-center"]
+    "children": ["flex-layout.col#benefits-mob-left"]
   },
   "flex-layout.row#benefits-mobile-row5": {
     "props": {
       "fullWidth": true,
       "marginBottom": 5
     },
-    "children": ["flex-layout.col#benefits-col-right"]
+    "children": ["flex-layout.col#benefits-mob-center"]
   },
   "flex-layout.row#benefits-mobile-row6": {
     "props": {
       "fullWidth": true,
       "marginBottom": 5
     },
-    "children": ["flex-layout.col#benefits-col-right-top"]
+    "children": ["flex-layout.col#benefits-mob-right"]
+  },
+
+  "flex-layout.col#benefits-mob-left-top": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-distintivos",
+      "rich-text#benefits-distintivos-title",
+      "rich-text#benefits-distintivos-text"
+    ]
+  },
+
+  "flex-layout.col#benefits-mob-center-top": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-descontos",
+      "rich-text#benefits-descontos-title",
+      "rich-text#benefits-descontos-text"
+    ]
+  },
+  "flex-layout.col#benefits-mob-right-top": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-reconhecimento",
+      "rich-text#benefits-reconhecimento-title",
+      "rich-text#benefits-reconhecimento-text"
+    ]
+  },
+  "flex-layout.col#benefits-mob-left": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-global",
+      "rich-text#benefits-global-title",
+      "rich-text#benefits-global-text"
+    ]
+  },
+  "flex-layout.col#benefits-mob-center": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-simulados",
+      "rich-text#benefits-simulados-title",
+      "rich-text#benefits-simulados-text"
+    ]
+  },
+  "flex-layout.col#benefits-mob-right": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    // "children": [
+    //   "image#benefits-loja",
+    //   "rich-text#benefits-loja-title",
+    //   "rich-text#benefits-loja-text"
+    // ]
+    "children": [
+      "image#benefits-loja",
+      "rich-text#benefits-loja-title",
+      "rich-text#benefits-loja-text"
+    ]
   }
 }

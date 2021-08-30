@@ -105,13 +105,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .flexCol--certificados-text{
   width: 500px;
 }
 .flexRow--certificados-banner {
   background-color: #FFF;
+  width: 100%;
   padding: 30px 50px;
+  justify-content: space-around;
 }
 .flexRow--training{
   background-color: #FFF;

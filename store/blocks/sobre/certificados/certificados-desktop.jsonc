@@ -32,7 +32,7 @@
   },
   "flex-layout.row#certificados-banner": {
     "props": {
-      "colGap": 8,
+      "colGap": 9,
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,

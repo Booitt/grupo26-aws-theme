@@ -86,25 +86,37 @@
 /* Fim */
 
 /* Sessão sobre */
+.flexRow--sobre-title{
+  margin: 70px 50px;
+}
 .flexRowContent--sobre-title {
-  margin: 70px 0;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.flexCol--col-2-sobre-inicio{
-  width: 718px;
+.flexCol--sobre-aws-col{
+  padding: 50px;
 }
-.flexRowContent--section-two-title {
-  margin-bottom: 70px;
+.flexCol--col-title-banner1{
+  width: 700px;
 }
-.flexRow--section-two {
-  margin: 0 40px 70px;
+.flexRow--certificados{
+  padding: 50px;
 }
-.flexRowContent--section-two {
+.flexCol--col-certificados{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexCol--certificados-text{
+  width: 500px;
+}
+.flexRow--certificados-banner {
   background-color: #FFF;
-  padding: 30px;
-  justify-content: space-around;
+  padding: 30px 50px;
 }
-
+.flexRow--training{
+  background-color: #FFF;
+  padding: 50px;
+}
 .flexColChild--sobre-inicio-col{
   width: 100vw;
   background-color: #FFF;

@@ -101,45 +101,40 @@
   font-family: "Noto Sans", sans-serif;
 }
 
-/* .paragraph--slider-banner-text {
-  margin: auto 10%;
-} */
-
 /* Sessão sobre inicio */
-.paragraph--section-one-title {
+
+.paragraph--sobre-aws-title {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
-  font-size: 48px;
-  margin: 0;
+  font-size: 36px;
+  margin: 0 0 20px;
 }
-.paragraph--section-two-title {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 700;
-  font-size: 48px;
-  margin: 50px 0 0;
-}
-.paragraph--section-one-sobre-text {
+
+.paragraph--sobre-aws-subtitle {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
-  margin: 0;
-  width: 718px;
-  position: relative;
-  right: 50px;
+  margin: 0 0 20px;
+}
+.paragraph--text-sobre-aws {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  margin: 0 0 20px;
 }
 .paragraph--text-col-certificates {
   font-family: "Noto Sans", sans-serif;
   margin: 0;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 36px;
 }
-.paragraph--section-two-text {
-  width: 555px;
+
+.paragraph--certificados-text {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   margin: 0;
 }
+
 .paragraph--section-one-title-mobile {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;

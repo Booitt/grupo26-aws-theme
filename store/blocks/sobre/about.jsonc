@@ -1,13 +1,11 @@
 {
   "store.custom#sobre": {
     "blocks": [
+      "slider-layout#home-banner",
       "responsive-layout.desktop#sobre",
-      "responsive-layout.mobile#sobre",
-      "responsive-layout.desktop#certificados",
-      "responsive-layout.tablet#certificados",
-      "responsive-layout.desktop#benefits",
-      "responsive-layout.tablet#benefits",
-      "responsive-layout.mobile#benefits"
+      "responsive-layout.mobile#sobre"
+
+      // "responsive-layout.tablet#certificados"
     ]
   }
 }

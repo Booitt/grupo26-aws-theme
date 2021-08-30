@@ -1,105 +1,141 @@
 {
   "responsive-layout.desktop#benefits": {
-    "children": ["rich-text#benefits-title", "flex-layout.row#content"]
+    "children": ["flex-layout.row#benefits-container"]
   },
-  "flex-layout.row#content": {
+
+  "flex-layout.row#benefits-container": {
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
       "fullWidth": false,
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "blockClass": "content"
+      "blockClass": "benefits-container",
+      "paddingTop": 2,
+      "paddingBottom": 2
     },
-    "children": ["flex-layout.col#content"]
+    "children": ["flex-layout.col#benefits-wrapper"]
   },
-  "flex-layout.col#content": {
-    "children": ["flex-layout.row#benefits1", "flex-layout.row#benefits2"],
-    "props": {
-      "blockClass": "col-content-desktop"
-    }
+  "flex-layout.col#benefits-wrapper": {
+    "children": [
+      "flex-layout.row#benefits-title",
+      "flex-layout.row#benefits-content-row1",
+      "flex-layout.row#benefits-content-row2"
+    ]
   },
-  "flex-layout.row#benefits1": {
+
+  "flex-layout.row#benefits-title": {
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "fullWidth": false,
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "blockClass": "row1-benefits"
+      "fullWidth": true,
+      "horizontalAlign": "left"
     },
-    "children": ["flex-layout.col#benefits1", "flex-layout.col#benefits2"]
+    "children": ["rich-text#benefits-title"]
   },
-  "flex-layout.col#benefits1": {
-    "children": ["rich-text#learn", "rich-text#train"],
-    "props": {
-      "blockClass": "row1-benefits"
-    }
-  },
-  "flex-layout.col#benefits2": {
-    "children": ["rich-text#pick", "rich-text#get"]
-  },
+
   "rich-text#benefits-title": {
     "props": {
-      "text": "## Benefícios da AWS Training and Certification",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "text": "### Benefícios da certificação da AWS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "blockClass": "benefits-title"
     }
   },
-  "rich-text#learn": {
+
+  "flex-layout.row#benefits-content-row1": {
     "props": {
-      "text": "Treine com um expert da AWS",
-      "blockClass": "text-benefits"
-    }
+      "fullWidth": true,
+      "marginBottom": 5
+    },
+    "children": [
+      "flex-layout.col#benefits-col-left-top",
+      "flex-layout.col#benefits-col-center-top",
+      "flex-layout.col#benefits-col-right-top"
+    ]
   },
-  "rich-text#pick": {
+  "flex-layout.row#benefits-content-row2": {
     "props": {
-      "text": "Escolha seu caminho de treinamento",
-      "blockClass": "text-benefits"
-    }
-  },
-  "rich-text#train": {
-    "props": {
-      "text": "Aprenda no seu ritmo",
-      "blockClass": "text-benefits"
-    }
-  },
-  "rich-text#get": {
-    "props": {
-      "text": "Obtenha um certificado AWS",
-      "blockClass": "text-benefits"
-    }
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#benefits-col-left",
+      "flex-layout.col#benefits-col-center",
+      "flex-layout.col#benefits-col-right"
+    ]
   },
 
-  "flex-layout.row#benefits2": {
+  "flex-layout.col#benefits-col-left-top": {
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "fullWidth": false,
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "blockClass": "row2-benefits"
+      "horizontalAlign": "left",
+      "marginRight": 5,
+      "width": "30%",
+      "blockClass": "benefits-card"
     },
-    "children": ["flex-layout.col#benefits3"]
+    "children": [
+      "image#benefits-distintivos",
+      "rich-text#benefits-distintivos-title",
+      "rich-text#benefits-distintivos-text"
+    ]
   },
-  "flex-layout.col#benefits3": {
-    "children": ["menu-item#learn"]
-  },
-  "menu-item#learn": {
+
+  "flex-layout.col#benefits-col-center-top": {
     "props": {
-      "id": "menu-item-learn",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/sobre",
-        "noFollow": false,
-        "tagTitle": "Learn",
-        "text": "Saiba mais sobre a AWS"
-      },
-      "blockClass": "learn-menu"
-    }
+      "horizontalAlign": "left",
+      "marginRight": 5,
+      "width": "30%",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-descontos",
+      "rich-text#benefits-descontos-title",
+      "rich-text#benefits-descontos-text"
+    ]
+  },
+  "flex-layout.col#benefits-col-right-top": {
+    "props": {
+      "horizontalAlign": "left",
+      "marginRight": 5,
+      "width": "30%",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-reconhecimento",
+      "rich-text#benefits-reconhecimento-title",
+      "rich-text#benefits-reconhecimento-text"
+    ]
+  },
+  "flex-layout.col#benefits-col-left": {
+    "props": {
+      "horizontalAlign": "left",
+      "marginRight": 5,
+      "width": "30%",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-global",
+      "rich-text#benefits-global-title",
+      "rich-text#benefits-global-text"
+    ]
+  },
+  "flex-layout.col#benefits-col-center": {
+    "props": {
+      "horizontalAlign": "left",
+      "marginRight": 5,
+      "width": "30%",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-simulados",
+      "rich-text#benefits-simulados-title",
+      "rich-text#benefits-simulados-text"
+    ]
+  },
+  "flex-layout.col#benefits-col-right": {
+    "props": {
+      "horizontalAlign": "left",
+      "marginRight": 5,
+      "width": "30%",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-loja",
+      "rich-text#benefits-loja-title",
+      "rich-text#benefits-loja-text"
+    ]
   }
 }

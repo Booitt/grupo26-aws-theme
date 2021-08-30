@@ -1,0 +1,95 @@
+{
+  "responsive-layout.mobile#banner-2": {
+    "children": ["flex-layout.row#banner2-mobile"]
+  },
+  "flex-layout.row#banner2-mobile": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "banner2-mobile"
+    },
+    "children": [
+      "rich-text#certificados-title-mobile",
+      "flex-layout.row#primeira-linha",
+      "image#logo-product-mobile",
+      "rich-text#certificados-text-mobile"
+    ]
+  },
+  "flex-layout.row#primeira-linha": {
+    "props": {
+      "colGap": 10,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "line-certificates"
+    },
+    "children": ["flex-layout.col#titulo1", "flex-layout.col#titulo2"]
+  },
+  "flex-layout.col#titulo1": {
+    "props": { "blockClass": "col-1-banner2" },
+    "children": ["rich-text#professional-mobile", "rich-text#associate-mobile"]
+  },
+  "flex-layout.col#titulo2": {
+    "props": { "blockClass": "col-2-banner2" },
+    "children": ["rich-text#fundational-mobile", "rich-text#specialty-mobile"]
+  },
+  "rich-text#certificados-title-mobile": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Certificados AWS disponíveis",
+      "blockClass": "sobre-aws-title-mobile2"
+    }
+  },
+  "rich-text#professional-mobile": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Professional",
+      "blockClass": "sobre-aws-title-mobile-3"
+    }
+  },
+  "rich-text#associate-mobile": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Associate",
+      "blockClass": "sobre-aws-title-mobile-3"
+    }
+  },
+  "rich-text#fundational-mobile": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Fundational",
+      "blockClass": "sobre-aws-title-mobile-3"
+    }
+  },
+  "rich-text#specialty-mobile": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Specialty",
+      "blockClass": "sobre-aws-title-mobile-3"
+    }
+  },
+  "image#logo-product-mobile": {
+    "props": {
+      "blockClass": "logo-product-mobile",
+      "src": "assets/sobre/product-image.svg"
+    }
+  },
+  "rich-text#certificados-text-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "center",
+      "text": "Esteja você explorando novas ideias, aprimorando suas habilidades em nuvem, aprendendo sobre serviços ou se preparando para a certificação, temos treinamentos para ajudar você a aprender novas habilidades continuamente e alcançar seus objetivos",
+      "blockClass": "certificados-text-mobile"
+    }
+  }
+}

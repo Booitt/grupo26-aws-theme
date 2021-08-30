@@ -5,6 +5,7 @@
           "responsive-layout.desktop#form-section",
           "responsive-layout.tablet#form-section",   
           "responsive-layout.mobile#form-section", 
+          "__fold__",
           "responsive-layout.desktop#home-products-slider",
           "responsive-layout.mobile#home-products-slider",
           "responsive-layout.desktop#benefits",

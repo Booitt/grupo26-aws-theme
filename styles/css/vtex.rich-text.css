@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 
 .paragraph--footer-copyright {
   color: #727273;
@@ -7,7 +6,7 @@
   margin-top: 0;
 }
 .paragraph--banner1-text {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   color: #fff;
   position: absolute;
@@ -18,7 +17,7 @@
   left: 25%;
 }
 .paragraph--banner2-text {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   color: #fff;
   position: absolute;
@@ -29,7 +28,7 @@
   left: 5%;
 }
 .paragraph--banner1-text-phone {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   color: #fff;
   position: absolute;
@@ -40,7 +39,7 @@
   left: 5%;
 }
 .paragraph--banner2-text-phone {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   color: #fff;
   position: absolute;
@@ -52,7 +51,7 @@
 }
 
 .heading--slider-title {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   margin: 30px 0;
   font-size: 48px;
@@ -60,34 +59,34 @@
 
 /*Inicio benefits session*/
 .paragraph--benefits-title {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   margin: 30px 0;
   font-size: 48px;
 }
 .paragraph--text-benefits {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 1.8rem;
   margin: 1.5rem;
 }
 .paragraph--benefits-title-phone {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 28px;
   width: 272px;
   color: #fff;
 }
 .paragraph--text-benefits-phone {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 18px;
   margin: 10px;
 }
-.paragraph--text-benefits-tablet{
-  font-family: 'Noto Sans', sans-serif;
+.paragraph--text-benefits-tablet {
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 1rem;
@@ -99,13 +98,13 @@
   font-size: 20px;
   font-weight: 700;
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
-
 /* Sessão sobre inicio */
-.paragraph--sobre-aws-title{
-  font-family: 'Noto Sans', sans-serif;
+
+.paragraph--sobre-aws-title {
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 36px;
   margin: 0 0 20px;
@@ -156,14 +155,14 @@
   font-size: 18px;
   margin: 0;
 }
-.paragraph--sobre-aws-subtitle{
-  font-family: 'Noto Sans', sans-serif;
+.paragraph--sobre-aws-subtitle {
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   margin: 0 0 20px;
 }
-.paragraph--text-sobre-aws{
-  font-family: 'Noto Sans', sans-serif;
+.paragraph--text-sobre-aws {
+  font-family: "Noto Sans", sans-serif;
   font-size: 20px;
   margin: 0 0 20px;
 }
@@ -173,7 +172,7 @@
   margin: 0 0 10px;
 }
 .paragraph--text-col-certificates {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   margin: 0;
   font-weight: 700;
   font-size: 36px;
@@ -184,8 +183,9 @@
   font-weight: 700;
   font-size: 20px;
 }
+
 .paragraph--certificados-text {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   margin: 0;
@@ -202,8 +202,8 @@
   font-size: 28px;
   margin: 30px 0;
 }
-.paragraph--section-one-sobre-text-mobile{
-  font-family: 'Noto Sans', sans-serif;
+.paragraph--section-one-sobre-text-mobile {
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   margin: 0;
@@ -230,5 +230,16 @@
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
   font-size: 20px;
+}
+/* Fim */
+
+/* Benefits - Refactored */
+/*Inicio*/
+.wrapper--benefits-text {
+  margin: 0 2rem;
+}
+.paragraph--benefits-text {
+  margin-top: -1rem;
+  margin-bottom: 5rem;
 }
 /* Fim */

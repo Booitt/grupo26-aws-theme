@@ -9,7 +9,7 @@
 	},
 	"rich-text#home-products-slider": {
 		"props": {
-			"text": "## Confira nossos treinamentos",
+			"text": "### Confira nossos treinamentos",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"blockClass": "slider-title"

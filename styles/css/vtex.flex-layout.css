@@ -25,7 +25,7 @@
 .flexRowContent--mobile-social {
 	padding-left: 20px;
 }
-@media (min-width: 768px){
+@media (min-width: 640px){
 	.flexRow--form-mobile{
 	  display: none;
 	}

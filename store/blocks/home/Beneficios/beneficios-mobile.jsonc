@@ -1,87 +1,154 @@
 {
-    //phone
-	"responsive-layout.mobile#benefits": {
-		"children": ["flex-layout.row#content-phone", "spacer#vertical-3"]
-	},
-	"flex-layout.row#content-phone": {
-		"props": {
-			"horizontalAlign": "center",
-			"verticalAlign": "center",
-			"fullWidth": true,
-			"preventHorizontalStretch": true,
-			"preventVerticalStretch": true,
-			"blockClass": "content-phone"
-		},
-		"children": ["flex-layout.col#content-phone"]
-	},
-	"flex-layout.col#content-phone": {
-		"children": [
-			"rich-text#benefits-title-phone",
-			"rich-text#learn-phone",
-			"rich-text#pick-phone",
-			"rich-text#train-phone",
-			"rich-text#get-phone",
-			"menu-item#learn-phone"
-		],
-		"props": {
-			"blockClass": "col-benefits-phone"
-		}
-	},
-	"rich-text#benefits-title-phone": {
-		"props": {
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"text": "Benefícios da AWS Training and Certification",
-			"blockClass": "benefits-title-phone"
-		}
-	},
+  //phone
+  "responsive-layout.mobile#benefits": {
+    "children": ["flex-layout.row#benefits-mobile-container"]
+  },
 
-	"rich-text#learn-phone": {
-		"props": {
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"text": "Aprenda no seu ritmo",
-			"blockClass": "text-benefits-phone"
-		}
-	},
-	"rich-text#pick-phone": {
-		"props": {
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"text": "Escolha seu caminho de treinamento",
-			"blockClass": "text-benefits-phone"
-		}
-	},
-	"rich-text#train-phone": {
-		"props": {
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"text": "Treine com um expert da AWS",
-			"blockClass": "text-benefits-phone"
-		}
-	},
-	"rich-text#get-phone": {
-		"props": {
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"text": "Obtenha um certificado AWS",
-			"blockClass": "text-benefits-phone"
-		}
-	},
-	"menu-item#learn-phone": {
-		"props": {
-			"id": "menu-item-learn",
-			"type": "custom",
-			"iconId": null,
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/sobre",
-				"noFollow": false,
-				"tagTitle": "Learn",
-				"text": "Saiba mais sobre a AWS"
-			},
-			"blockClass": "learn-menu-phone"
-		}
-	}
+  "flex-layout.row#benefits-mobile-container": {
+    "props": {
+      "fullWidth": false,
+      "blockClass": "benefits-container",
+      "paddingTop": 2,
+      "paddingBottom": 2
+    },
+    "children": ["flex-layout.col#benefits-mobile-wrapper"]
+  },
+  "flex-layout.col#benefits-mobile-wrapper": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#benefits-mobile-title",
+      "flex-layout.row#benefits-mobile-row1",
+      "flex-layout.row#benefits-mobile-row2",
+      "flex-layout.row#benefits-mobile-row3",
+      "flex-layout.row#benefits-mobile-row4",
+      "flex-layout.row#benefits-mobile-row5",
+      "flex-layout.row#benefits-mobile-row6"
+    ]
+  },
+
+  "flex-layout.row#benefits-mobile-title": {
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "left"
+    },
+    "children": ["rich-text#benefits-title"]
+  },
+
+  "flex-layout.row#benefits-mobile-row1": {
+    "props": {
+      "fullWidth": true,
+      "marginBottom": 5
+    },
+    "children": ["flex-layout.col#benefits-mob-left-top"]
+  },
+  "flex-layout.row#benefits-mobile-row2": {
+    "props": {
+      "fullWidth": true,
+      "marginBottom": 5
+    },
+    "children": ["flex-layout.col#benefits-mob-center-top"]
+  },
+  "flex-layout.row#benefits-mobile-row3": {
+    "props": {
+      "fullWidth": true,
+      "marginBottom": 5
+    },
+    "children": ["flex-layout.col#benefits-mob-right-top"]
+  },
+  "flex-layout.row#benefits-mobile-row4": {
+    "props": {
+      "fullWidth": true,
+      "marginBottom": 5
+    },
+    "children": ["flex-layout.col#benefits-mob-left"]
+  },
+  "flex-layout.row#benefits-mobile-row5": {
+    "props": {
+      "fullWidth": true,
+      "marginBottom": 5
+    },
+    "children": ["flex-layout.col#benefits-mob-center"]
+  },
+  "flex-layout.row#benefits-mobile-row6": {
+    "props": {
+      "fullWidth": true,
+      "marginBottom": 5
+    },
+    "children": ["flex-layout.col#benefits-mob-right"]
+  },
+
+  "flex-layout.col#benefits-mob-left-top": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-distintivos",
+      "rich-text#benefits-distintivos-title",
+      "rich-text#benefits-distintivos-text"
+    ]
+  },
+
+  "flex-layout.col#benefits-mob-center-top": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-descontos",
+      "rich-text#benefits-descontos-title",
+      "rich-text#benefits-descontos-text"
+    ]
+  },
+  "flex-layout.col#benefits-mob-right-top": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-reconhecimento",
+      "rich-text#benefits-reconhecimento-title",
+      "rich-text#benefits-reconhecimento-text"
+    ]
+  },
+  "flex-layout.col#benefits-mob-left": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-global",
+      "rich-text#benefits-global-title",
+      "rich-text#benefits-global-text"
+    ]
+  },
+  "flex-layout.col#benefits-mob-center": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    "children": [
+      "image#benefits-simulados",
+      "rich-text#benefits-simulados-title",
+      "rich-text#benefits-simulados-text"
+    ]
+  },
+  "flex-layout.col#benefits-mob-right": {
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "benefits-card"
+    },
+    // "children": [
+    //   "image#benefits-loja",
+    //   "rich-text#benefits-loja-title",
+    //   "rich-text#benefits-loja-text"
+    // ]
+    "children": [
+      "image#benefits-loja",
+      "rich-text#benefits-loja-title",
+      "rich-text#benefits-loja-text"
+    ]
+  }
 }

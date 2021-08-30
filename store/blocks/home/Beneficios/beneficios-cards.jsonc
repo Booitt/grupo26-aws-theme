@@ -1,0 +1,121 @@
+{
+  "image#benefits-distintivos": {
+    "props": {
+      "blockClass": "benefits-image",
+      "src": "assets/home/benefits/distintivos.png",
+      "maxHeight": "100px"
+    }
+  },
+  "rich-text#benefits-distintivos-title": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "#### **Distintivos digitais**"
+    }
+  },
+  "rich-text#benefits-distintivos-text": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "Demonstre suas conquistas da AWS Certification com distintivos digitais em suas assinaturas de mídias sociais e email e obtenha acesso imediato a eventos exclusivos de certificação patrocinados pela AWS"
+    }
+  },
+
+  "image#benefits-descontos": {
+    "props": {
+      "blockClass": "benefits-image",
+      "src": "assets/home/benefits/descontos.png",
+      "maxHeight": "100px"
+    }
+  },
+  "rich-text#benefits-descontos-title": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "#### **Desconto em exames**"
+    }
+  },
+  "rich-text#benefits-descontos-text": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "Ganhe um voucher de desconto de 50% na inscrição para renovação de certificação ou qualquer outro exame."
+    }
+  },
+
+  "image#benefits-reconhecimento": {
+    "props": {
+      "blockClass": "benefits-image",
+      "src": "assets/home/benefits/reconhecimento.png",
+      "maxHeight": "100px"
+    }
+  },
+  "rich-text#benefits-reconhecimento-title": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "#### **Reconhecimento em eventos**"
+    }
+  },
+  "rich-text#benefits-reconhecimento-text": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "Receba convites para recepções de agradecimento regionais e use seu distintivo digital para obter acesso exclusivo aos lounges da AWS Certification no AWS re:Invent e em eventos selecionados da Conferência da AWS."
+    }
+  },
+
+  "image#benefits-global": {
+    "props": {
+      "blockClass": "benefits-image",
+      "src": "assets/home/benefits/global.png",
+      "maxHeight": "100px"
+    }
+  },
+  "rich-text#benefits-global-title": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "#### **Comunidade global de certificação da AWS**"
+    }
+  },
+  "rich-text#benefits-global-text": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "Obtenha acesso à comunidade certificada pela AWS no LinkedIn e interaja com seus colegas."
+    }
+  },
+
+  "image#benefits-simulados": {
+    "props": {
+      "blockClass": "benefits-image",
+      "src": "assets/home/benefits/simulados.png",
+      "maxHeight": "100px"
+    }
+  },
+  "rich-text#benefits-simulados-title": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "#### **Exames simulados gratuitos**"
+    }
+  },
+  "rich-text#benefits-simulados-text": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "Prepare-se para obter a sua próxima certificação da AWS com um voucher de exame simulado."
+    }
+  },
+
+  "image#benefits-loja": {
+    "props": {
+      "blockClass": "benefits-image",
+      "src": "assets/home/benefits/loja.png",
+      "maxHeight": "100px"
+    }
+  },
+  "rich-text#benefits-loja-title": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "#### **Loja de certificações da AWS**"
+    }
+  },
+  "rich-text#benefits-loja-text": {
+    "props": {
+      "blockClass": "benefits-text",
+      "text": "Desbloqueie o acesso a produtos exclusivos certificados pela AWS. Na nossa loja para profissionais certificados                        "
+    }
+  }
+}

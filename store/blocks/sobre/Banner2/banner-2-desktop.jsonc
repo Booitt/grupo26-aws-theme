@@ -37,7 +37,7 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "certificados-banner-tablet"
+      "blockClass": "certificados-banner"
     },
     "children": [
       "flex-layout.col#tipos",

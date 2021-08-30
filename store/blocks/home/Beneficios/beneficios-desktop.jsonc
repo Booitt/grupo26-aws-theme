@@ -5,6 +5,8 @@
 
   "flex-layout.row#benefits-container": {
     "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
       "fullWidth": false,
       "blockClass": "benefits-container",
       "paddingTop": 2,
@@ -22,8 +24,7 @@
 
   "flex-layout.row#benefits-title": {
     "props": {
-      "fullWidth": true,
-      "horizontalAlign": "left"
+      "fullWidth": true
     },
     "children": ["rich-text#benefits-title"]
   },
@@ -31,14 +32,16 @@
   "rich-text#benefits-title": {
     "props": {
       "text": "### Benefícios da certificação da AWS",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
+      "textAlignment": "center",
+      "textPosition": "center",
       "blockClass": "benefits-title"
     }
   },
 
   "flex-layout.row#benefits-content-row1": {
     "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
       "fullWidth": true,
       "marginBottom": 5
     },
@@ -50,6 +53,8 @@
   },
   "flex-layout.row#benefits-content-row2": {
     "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
       "fullWidth": true
     },
     "children": [

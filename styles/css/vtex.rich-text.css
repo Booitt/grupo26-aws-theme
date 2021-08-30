@@ -53,8 +53,7 @@
 .heading--slider-title {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
-  margin: 30px 0;
-  font-size: 48px;
+  margin: 0;
 }
 
 /*Inicio benefits session*/
@@ -63,6 +62,7 @@
   font-weight: 700;
   margin: 30px 0;
   font-size: 48px;
+  text-align: center;
 }
 .paragraph--text-benefits {
   font-family: "Noto Sans", sans-serif;
@@ -118,7 +118,7 @@
 .paragraph--text-banner1-tablet{
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
 }
 .paragraph--sobre-aws-title-tablet{
@@ -154,7 +154,7 @@
   font-weight: 400;
   font-size: 18px;
   margin: 0;
-
+}
 .paragraph--sobre-aws-subtitle {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
@@ -193,7 +193,7 @@
 .paragraph--certificados-text-tablet {
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
 }
 .paragraph--section-one-title-mobile{
@@ -208,6 +208,29 @@
   font-size: 20px;
   margin: 0;
 }
+.paragraph--sobre-aws-subtitle-tablet{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+}
+.paragraph--sobre-aws-subtitle-mobile{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+.paragraph--text-sobre-aws-mobile{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.paragraph--text-sobre-aws-tablet{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
 /* Fim */
 
 /* Benefits - Refactored */
@@ -218,6 +241,11 @@
 .paragraph--benefits-text {
   margin-top: -1rem;
   margin-bottom: 5rem;
+}
+.container--benefits-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* Fim */
 

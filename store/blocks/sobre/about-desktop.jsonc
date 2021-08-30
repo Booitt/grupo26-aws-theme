@@ -16,9 +16,7 @@
       "blockClass": "sobre-inicio-col"
     },
     "children": [
-      "flex-layout.row#logo-title",
-      "flex-layout.row#section-one-sobre-text"
-    ]
+      "flex-layout.row#logo-title"]
   },
   "flex-layout.row#logo-title": {
     "props": {
@@ -38,7 +36,10 @@
     "children": ["image#logo-sobre"]
   },
   "flex-layout.col#section-one-title": {
-    "children": ["rich-text#section-one-title"]
+    "props":{
+      "blockClass":"col-2-sobre-inicio"
+    },
+    "children": ["rich-text#section-one-title", "rich-text#section-one-sobre-text"]
   },
   "image#logo-sobre": {
     "props": {
@@ -48,27 +49,16 @@
   },
   "rich-text#section-one-title": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "left",
+      "textPosition": "left",
       "text": "Sobre os certificados AWS",
       "blockClass": "section-one-title"
     }
   },
-  "flex-layout.row#section-one-sobre-text": {
-    "props": {
-      "horizontalAlign": "right",
-      "verticalAlign": "right",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "blockClass": "section-one-sobre-text"
-    },
-    "children": ["rich-text#section-one-sobre-text"]
-  },
   "rich-text#section-one-sobre-text": {
     "props": {
       "textAlignment": "left",
-      "textPosition": "center",
+      "textPosition": "left",
       "text": "Você pode se beneficiar de uma grande variedade de insights de especialistas, recursos e programas à medida que avança em direção à obtenção da AWS Certification. Caso esteja começando agora ou esteja em busca de uma nova certificação, a AWS ajuda você a validar com eficácia a sua experiência na nuvem.",
       "blockClass": "section-one-sobre-text"
     }

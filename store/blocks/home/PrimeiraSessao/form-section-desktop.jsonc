@@ -29,6 +29,9 @@
   },
 
   "flex-layout.row#form-main": {
+    "props": {
+      "paddingBottom": 8
+    },
     "children": [
       "flex-layout.col#form-section-left",
       "flex-layout.col#form-section-form"
@@ -37,7 +40,10 @@
 
   "flex-layout.col#form-section-left": {
     "props": {
+      "blockClass": "form-left",
       "verticalAlign": "middle",
+      "marginRight": 7,
+      "paddingRight": 7,
       "border": "right"
     },
     "children": [
@@ -55,13 +61,14 @@
   },
   "rich-text#form-left-text": {
     "props": {
-      "text": "Certifique seu conhecimento e não perca nenhuma oportunidade."
+      "text": "Certifique seu conhecimento e não perca nenhuma oportunidade.",
+      "blockClass": "form-text-paragraph"
     }
   },
   "image#form-left-image": {
     "props": {
       "src": "assets/home/form-image.svg",
-      "maxHeight": "200px"
+      "maxHeight": "150px"
     }
   },
 
@@ -69,16 +76,18 @@
 
   "flex-layout.col#form-section-form": {
     "props": {
-      "blockClass": "form-right"
+      "blockClass": "form-right",
+      "marginLeft": 7
     },
     "children": ["rich-text#form-title", "flex-layout.row#form-right-form"]
   },
 
   "flex-layout.row#form-right-form": {
     "props": {
-      "border": "all",
+      "fullWidth": false,
       "paddingBottom": 6,
-      "paddingTop": 6
+      "paddingTop": 6,
+      "blockClass": "form-row"
     },
     "children": ["formulario"]
   },

@@ -167,4 +167,14 @@
 .flexRow--form-container {
   background-color: #fff;
 }
+
+.flexRowContent--form-row {
+  /* width: 80% !important; */
+  margin: auto;
+  border-radius: 20px;
+  background-color: #e5eaef;
+}
+.flexColChild--form-left:last-child {
+  align-self: center;
+}
 /*Fim*/

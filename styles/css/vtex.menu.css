@@ -7,6 +7,8 @@
   color: #fff;
   /* font-size: 0.8rem; */
 }
+
+/*Botão: Saiba Mais*/
 .styledLinkContent--learn-menu{
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
@@ -31,3 +33,4 @@
   font-size: 18px;
   margin: 10px 10px 30px;
 }
+/*Fim*/

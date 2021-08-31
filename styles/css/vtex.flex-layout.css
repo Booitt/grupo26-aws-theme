@@ -44,6 +44,12 @@
   .flexRow--training-mobile{
     display: none;
   }
+  .flexRow--benefits-title-container{
+    display: none;
+  }
+  .flexRow--benefits-container-mobile{
+    display: none;
+  }
 }
 /* Fim */
 
@@ -263,5 +269,10 @@
   /* background-color: aqua; */
   height: 50% !important;
 }
-
+.flexCol--benefits-container-col-tablet{
+  margin: 0 30px;
+}
+.flexCol--benefits-container-col-mobile{
+  margin: 0 20px;
+}
 /*Fim*/

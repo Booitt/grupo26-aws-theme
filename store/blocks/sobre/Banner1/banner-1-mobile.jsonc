@@ -15,9 +15,9 @@
       "props": {
         "blockClass": "sobre-inicio-col-mobile"
       },
-      "children": ["image#logo-sobre-mobile","rich-text#title-banner1-mobile", "rich-text#text-banner1-mobile"]
+      "children": ["image#logo-sobre-mobile-banner","rich-text#title-banner1-mobile", "rich-text#text-banner1-mobile"]
     },
-    "image#logo-sobre-mobile": {
+    "image#logo-sobre-mobile-banner": {
       "props": {
         "blockClass": "logo-sobre-mobile",
         "src": "assets/home/logo-home.svg"

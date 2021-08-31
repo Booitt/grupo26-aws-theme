@@ -44,6 +44,12 @@
   .flexRow--training-mobile{
     display: none;
   }
+  .flexRow--benefits-title-container{
+    display: none;
+  }
+  .flexRow--benefits-container-mobile{
+    display: none;
+  }
 }
 /* Fim */
 
@@ -262,6 +268,13 @@
 .flexColChild--benefits-card:nth-child(even) {
   height: 50% !important;
 }
+
+.flexCol--benefits-container-col-tablet{
+  margin: 0 30px;
+}
+.flexCol--benefits-container-col-mobile{
+  margin: 0 20px;
+
 /*Fim*/
 
 /* Form Section - Refactored */
@@ -278,5 +291,6 @@
 }
 .flexColChild--form-left:last-child {
   align-self: center;
+
 }
 /*Fim*/

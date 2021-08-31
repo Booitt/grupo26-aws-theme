@@ -1,14 +1,157 @@
 {
-  "responsive-layout.tablet#benefits": {
-    "children": []
-  },
-  "flex-layout.row#benefits-tablet-container": {
-    "props": {
-      "fullWidth": true,
-      "blockClass": "benefits-container",
-      "paddingTop": 2,
-      "paddingBottom": 2
+    //table
+    "responsive-layout.tablet#benefits": {
+      "children": ["flex-layout.row#benefits-tablet-container"]
     },
-    "children": ["flex-layout.col#benefits-mobile-wrapper"]
+  
+    "flex-layout.row#benefits-tablet-container": {
+      "props": {
+        "fullWidth": true,
+        "blockClass": "benefits-container-tablet",
+        "paddingTop": 2,
+        "paddingBottom": 2
+      },
+      "children": ["flex-layout.col#benefits-tablet-wrapper"]
+    },
+    "flex-layout.col#benefits-tablet-wrapper": {
+      "props": {
+        "blockClass": "benefits-container-col-tablet",
+        "horizontalAlign": "center"
+      },
+      "children": [
+        "flex-layout.row#benefits-tablet-title",
+        "flex-layout.row#benefits-tablet-row1",
+        "flex-layout.row#benefits-tablet-row2",
+        "flex-layout.row#benefits-tablet-row3",
+        "flex-layout.row#benefits-tablet-row4",
+        "flex-layout.row#benefits-tablet-row5",
+        "flex-layout.row#benefits-tablet-row6"
+      ]
+    },
+    "flex-layout.row#benefits-tablet-title": {
+      "props": {
+        "fullWidth": true,
+        "horizontalAlign": "left"
+      },
+      "children": ["rich-text#benefits-title-tablet"]
+    },
+    "rich-text#benefits-title-tablet": {
+      "props": {
+        "text": "Benefícios da certificação da AWS",
+        "textAlignment": "center",
+        "textPosition": "center",
+        "blockClass": "benefits-title-tablet"
+      }
+    },
+    "flex-layout.row#benefits-tablet-row1": {
+      "props": {
+        "fullWidth": true,
+        "marginBottom": 5
+      },
+      "children": ["flex-layout.col#benefits-mob-left-top-tablet"]
+    },
+    "flex-layout.row#benefits-tablet-row2": {
+      "props": {
+        "fullWidth": true,
+        "marginBottom": 5
+      },
+      "children": ["flex-layout.col#benefits-mob-center-top-tablet"]
+    },
+    "flex-layout.row#benefits-tablet-row3": {
+      "props": {
+        "fullWidth": true,
+        "marginBottom": 5
+      },
+      "children": ["flex-layout.col#benefits-mob-right-top-tablet"]
+    },
+    "flex-layout.row#benefits-tablet-row4": {
+      "props": {
+        "fullWidth": true,
+        "marginBottom": 5
+      },
+      "children": ["flex-layout.col#benefits-mob-left-tablet"]
+    },
+    "flex-layout.row#benefits-tablet-row5": {
+      "props": {
+        "fullWidth": true,
+        "marginBottom": 5
+      },
+      "children": ["flex-layout.col#benefits-mob-center-tablet"]
+    },
+    "flex-layout.row#benefits-tablet-row6": {
+      "props": {
+        "fullWidth": true,
+        "marginBottom": 5
+      },
+      "children": ["flex-layout.col#benefits-mob-right-tablet"]
+    },
+  
+    "flex-layout.col#benefits-mob-left-top-tablet": {
+      "props": {
+        "horizontalAlign": "left",
+        "blockClass": "benefits-card"
+      },
+      "children": [
+        "image#benefits-distintivos",
+        "rich-text#benefits-distintivos-title",
+        "rich-text#benefits-distintivos-text"
+      ]
+    },
+  
+    "flex-layout.col#benefits-mob-center-top-tablet": {
+      "props": {
+        "horizontalAlign": "left",
+        "blockClass": "benefits-card"
+      },
+      "children": [
+        "image#benefits-descontos",
+        "rich-text#benefits-descontos-title",
+        "rich-text#benefits-descontos-text"
+      ]
+    },
+    "flex-layout.col#benefits-mob-right-top-tablet": {
+      "props": {
+        "horizontalAlign": "left",
+        "blockClass": "benefits-card"
+      },
+      "children": [
+        "image#benefits-reconhecimento",
+        "rich-text#benefits-reconhecimento-title",
+        "rich-text#benefits-reconhecimento-text"
+      ]
+    },
+    "flex-layout.col#benefits-mob-left-tablet": {
+      "props": {
+        "horizontalAlign": "left",
+        "blockClass": "benefits-card"
+      },
+      "children": [
+        "image#benefits-global",
+        "rich-text#benefits-global-title",
+        "rich-text#benefits-global-text"
+      ]
+    },
+    "flex-layout.col#benefits-mob-center-tablet": {
+      "props": {
+        "horizontalAlign": "left",
+        "blockClass": "benefits-card"
+      },
+      "children": [
+        "image#benefits-simulados",
+        "rich-text#benefits-simulados-title",
+        "rich-text#benefits-simulados-text"
+      ]
+    },
+    "flex-layout.col#benefits-mob-right-tablet": {
+      "props": {
+        "horizontalAlign": "left",
+        "blockClass": "benefits-card"
+      },
+      "children": [
+        "image#benefits-loja",
+        "rich-text#benefits-loja-title",
+        "rich-text#benefits-loja-text"
+      ]
+    }
   }
-}
+  

@@ -6,8 +6,8 @@
 
   "flex-layout.row#benefits-mobile-container": {
     "props": {
-      "fullWidth": false,
-      "blockClass": "benefits-container",
+      "fullWidth": true,
+      "blockClass": "benefits-container-mobile",
       "paddingTop": 2,
       "paddingBottom": 2
     },
@@ -15,6 +15,7 @@
   },
   "flex-layout.col#benefits-mobile-wrapper": {
     "props": {
+      "blockClass": "benefits-container-col-tablet",
       "horizontalAlign": "center"
     },
     "children": [
@@ -27,15 +28,22 @@
       "flex-layout.row#benefits-mobile-row6"
     ]
   },
-
   "flex-layout.row#benefits-mobile-title": {
     "props": {
       "fullWidth": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "left",
+      "blockClass": "benefits-title-container"
     },
-    "children": ["rich-text#benefits-title"]
+    "children": ["rich-text#benefits-title-mobile"]
   },
-
+  "rich-text#benefits-title-mobile": {
+    "props": {
+      "text": "Benefícios da certificação da AWS",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "benefits-title-mobile"
+    }
+  },
   "flex-layout.row#benefits-mobile-row1": {
     "props": {
       "fullWidth": true,
@@ -140,11 +148,6 @@
       "horizontalAlign": "left",
       "blockClass": "benefits-card"
     },
-    // "children": [
-    //   "image#benefits-loja",
-    //   "rich-text#benefits-loja-title",
-    //   "rich-text#benefits-loja-text"
-    // ]
     "children": [
       "image#benefits-loja",
       "rich-text#benefits-loja-title",
